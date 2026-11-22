@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="1200" height="230">
+<defs><linearGradient id="fb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#07051a" stop-opacity="0"/><stop offset=".35" stop-color="#0f0c29"/><stop offset="1" stop-color="#05030f"/></linearGradient>
+<linearGradient id="qg" x1="0" x2="1"><stop offset="0" stop-color="#00f0ff"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#ff2bd6"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+<filter id="ng" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="tk"><rect x="0" y="150" width="1200" height="40"/></clipPath>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+<rect width="4" height="2" fill="#000" opacity=".28"/></pattern></defs>
+<style>@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-691px)}}
+@keyframes fl{0%,94%,100%{opacity:1}95%{opacity:.3}97%{opacity:.8}}</style>
+<path fill="url(#fb)" d="M0 40 Q300 0 600 40 T1200 40 V230 H0Z"><animate attributeName="d" dur="8s" repeatCount="indefinite"
+values="M0 40 Q300 0 600 40 T1200 40 V230 H0Z;M0 40 Q300 80 600 40 T1200 40 V230 H0Z;M0 40 Q300 0 600 40 T1200 40 V230 H0Z"/></path>
+<path fill="none" stroke="#00f0ff" stroke-width="2" filter="url(#ng)" d="M0 40 Q300 0 600 40 T1200 40"><animate attributeName="d" dur="8s" repeatCount="indefinite"
+values="M0 40 Q300 0 600 40 T1200 40;M0 40 Q300 80 600 40 T1200 40;M0 40 Q300 0 600 40 T1200 40"/></path>
+<text x="600" y="115" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="24" font-style="italic" fill="url(#qg)" filter="url(#ng)" style="animation:fl 4s infinite">“Code is like humor. When you have to explain it, it’s bad.”</text>
+<rect x="0" y="152" width="1200" height="34" fill="#000" opacity=".4"/>
+<line x1="0" x2="1200" y1="152" y2="152" stroke="#ff2bd6" opacity=".6"/><line x1="0" x2="1200" y1="186" y2="186" stroke="#ff2bd6" opacity=".6"/>
+<g clip-path="url(#tk)"><text y="175" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="16" fill="#f9f002" letter-spacing="0" style="animation:mq 14s linear infinite" xml:space="preserve">[ END OF TRANSMISSION ]  ·  THANKS FOR VISITING  ·  JACK IN ANYTIME  ·  [ END OF TRANSMISSION ]  ·  THANKS FOR VISITING  ·  JACK IN ANYTIME  ·  [ END OF TRANSMISSION ]  ·  THANKS FOR VISITING  ·  JACK IN ANYTIME  ·  [ END OF TRANSMISSION ]  ·  THANKS FOR VISITING  ·  JACK IN ANYTIME  ·  [ END OF TRANSMISSION ]  ·  THANKS FOR VISITING  ·  JACK IN ANYTIME  ·  [ END OF TRANSMISSION ]  ·  THANKS FOR VISITING  ·  JACK IN ANYTIME  ·  </text></g>
+<text x="600" y="215" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="12" fill="#8f8fbf">© ANDHIKA RIZKY NUR WAHYU · BUILT WITH NEON &amp; CAFFEINE</text>
+<rect width="1200" height="230" fill="url(#scan)"/>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 270" width="1000" height="270">
+<defs><filter id="ng" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<style>
+@keyframes rise{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:translateY(0)}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes run{from{stroke-dashoffset:0}to{stroke-dashoffset:-690}}
+@keyframes rot{to{transform:rotate(360deg)}}
+@keyframes spinY{0%,60%,100%{transform:scaleX(1)}70%{transform:scaleX(-1)}80%{transform:scaleX(1)}}
+</style>
+<rect width="1000" height="270" rx="14" fill="#07051a"/>
+<g style="animation:bob 4s -0.00s ease-in-out infinite">
+<rect x="20.0" y="40" width="176" height="190" rx="10" fill="#0b0820" stroke="#00f0ff" stroke-opacity=".35"/>
+<rect x="20.0" y="40" width="176" height="190" rx="10" fill="none" stroke="#00f0ff" stroke-width="2" stroke-dasharray="90 600" filter="url(#ng)" style="animation:run 4s 0.0s linear infinite"/>
+<path d="M32.0 52h20M32.0 52v20M184.0 218h-20M184.0 218v-20" stroke="#00f0ff" stroke-width="2" fill="none"/>
+<g transform="translate(108.0 105)"><g fill="none" stroke="#00f0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" filter="url(#ng)" style="animation:spinY 6s 0s ease-in-out infinite"><rect x="-22" y="-16" width="44" height="32" rx="3"/><path d="M-22 -8H22M-14 0H6M-14 7H14"/></g></g>
+<circle cx="108.0" cy="105" r="38" fill="none" stroke="#00f0ff" stroke-opacity=".3" stroke-dasharray="3 6" style="animation:rot 10s linear infinite;transform-origin:108.0px 105px"/>
+<text x="108.0" y="172" text-anchor="middle" font-family="'Orbitron','Rajdhani','Segoe UI','Arial Black',Arial,sans-serif" font-weight="800" font-size="15" letter-spacing="1.5" fill="#fff">LANDING PAGES</text>
+<text x="108.0" y="194" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="12" fill="#00f0ff">fast · responsive</text>
+<text x="108.0" y="211" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="12" fill="#9a9ac8">conversion-focused</text>
+<text x="182.0" y="62" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="10" fill="#00f0ff" opacity=".7">01</text>
+</g><g style="animation:bob 4s -0.70s ease-in-out infinite">
+<rect x="216.0" y="40" width="176" height="190" rx="10" fill="#0b0820" stroke="#ff2bd6" stroke-opacity=".35"/>
+<rect x="216.0" y="40" width="176" height="190" rx="10" fill="none" stroke="#ff2bd6" stroke-width="2" stroke-dasharray="90 600" filter="url(#ng)" style="animation:run 4s -0.8s linear infinite"/>
+<path d="M228.0 52h20M228.0 52v20M380.0 218h-20M380.0 218v-20" stroke="#ff2bd6" stroke-width="2" fill="none"/>
+<g transform="translate(304.0 105)"><g fill="none" stroke="#ff2bd6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" filter="url(#ng)" style="animation:spinY 6s -1s ease-in-out infinite"><rect x="-20" y="-16" width="40" height="34" rx="3"/><path d="M-20 -6H20M-10 -22V-12M10 -22V-12"/><path d="M-8 6l5 5 10-10"/></g></g>
+<circle cx="304.0" cy="105" r="38" fill="none" stroke="#ff2bd6" stroke-opacity=".3" stroke-dasharray="3 6" style="animation:rot 10s linear infinite;transform-origin:304.0px 105px"/>
+<text x="304.0" y="172" text-anchor="middle" font-family="'Orbitron','Rajdhani','Segoe UI','Arial Black',Arial,sans-serif" font-weight="800" font-size="15" letter-spacing="1.5" fill="#fff">BOOKING ENGINE</text>
+<text x="304.0" y="194" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="12" fill="#ff2bd6">real-time</text>
+<text x="304.0" y="211" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="12" fill="#9a9ac8">availability</text>
+<text x="378.0" y="62" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="10" fill="#ff2bd6" opacity=".7">02</text>
+</g><g style="animation:bob 4s -1.40s ease-in-out infinite">
+<rect x="412.0" y="40" width="176" height="190" rx="10" fill="#0b0820" stroke="#f9f002" stroke-opacity=".35"/>
+<rect x="412.0" y="40" width="176" height="190" rx="10" fill="none" stroke="#f9f002" stroke-width="2" stroke-dasharray="90 600" filter="url(#ng)" style="animation:run 4s -1.6s linear infinite"/>
+<path d="M424.0 52h20M424.0 52v20M576.0 218h-20M576.0 218v-20" stroke="#f9f002" stroke-width="2" fill="none"/>
+<g transform="translate(500.0 105)"><g fill="none" stroke="#f9f002" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" filter="url(#ng)" style="animation:spinY 6s -2s ease-in-out infinite"><rect x="-22" y="-18" width="44" height="36" rx="3"/><path d="M-14 10V2M-5 10V-6M4 10V-2M13 10V-10"/></g></g>
+<circle cx="500.0" cy="105" r="38" fill="none" stroke="#f9f002" stroke-opacity=".3" stroke-dasharray="3 6" style="animation:rot 10s linear infinite;transform-origin:500.0px 105px"/>
+<text x="500.0" y="172" text-anchor="middle" font-family="'Orbitron','Rajdhani','Segoe UI','Arial Black',Arial,sans-serif" font-weight="800" font-size="15" letter-spacing="1.5" fill="#fff">DASHBOARDS</text>
+<text x="500.0" y="194" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="12" fill="#f9f002">data · users</text>
+<text x="500.0" y="211" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="12" fill="#9a9ac8">operations</text>
+<text x="574.0" y="62" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="10" fill="#f9f002" opacity=".7">03</text>
+</g><g style="animation:bob 4s -2.10s ease-in-out infinite">
+<rect x="608.0" y="40" width="176" height="190" rx="10" fill="#0b0820" stroke="#9dff9d" stroke-opacity=".35"/>
+<rect x="608.0" y="40" width="176" height="190" rx="10" fill="none" stroke="#9dff9d" stroke-width="2" stroke-dasharray="90 600" filter="url(#ng)" style="animation:run 4s -2.4s linear infinite"/>
+<path d="M620.0 52h20M620.0 52v20M772.0 218h-20M772.0 218v-20" stroke="#9dff9d" stroke-width="2" fill="none"/>
+<g transform="translate(696.0 105)"><g fill="none" stroke="#9dff9d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" filter="url(#ng)" style="animation:spinY 6s -3s ease-in-out infinite"><circle r="14"/><circle r="4"/><path d="M0 -14V-22M0 14V22M-14 0H-22M14 0H22M10 -10l6 -6M-10 10l-6 6M10 10l6 6M-10 -10l-6 -6"/></g></g>
+<circle cx="696.0" cy="105" r="38" fill="none" stroke="#9dff9d" stroke-opacity=".3" stroke-dasharray="3 6" style="animation:rot 10s linear infinite;transform-origin:696.0px 105px"/>
+<text x="696.0" y="172" text-anchor="middle" font-family="'Orbitron','Rajdhani','Segoe UI','Arial Black',Arial,sans-serif" font-weight="800" font-size="15" letter-spacing="1.5" fill="#fff">AI INTEGRATION</text>
+<text x="696.0" y="194" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="12" fill="#9dff9d">smart features</text>
+<text x="696.0" y="211" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="12" fill="#9a9ac8">modern AI APIs</text>
+<text x="770.0" y="62" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="10" fill="#9dff9d" opacity=".7">04</text>
+</g><g style="animation:bob 4s -2.80s ease-in-out infinite">
+<rect x="804.0" y="40" width="176" height="190" rx="10" fill="#0b0820" stroke="#00f0ff" stroke-opacity=".35"/>
+<rect x="804.0" y="40" width="176" height="190" rx="10" fill="none" stroke="#00f0ff" stroke-width="2" stroke-dasharray="90 600" filter="url(#ng)" style="animation:run 4s -3.2s linear infinite"/>
+<path d="M816.0 52h20M816.0 52v20M968.0 218h-20M968.0 218v-20" stroke="#00f0ff" stroke-width="2" fill="none"/>
+<g transform="translate(892.0 105)"><g fill="none" stroke="#00f0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" filter="url(#ng)" style="animation:spinY 6s -4s ease-in-out infinite"><rect x="-24" y="-16" width="32" height="26" rx="2"/><rect x="10" y="-12" width="16" height="28" rx="3"/><path d="M-30 14H12"/></g></g>
+<circle cx="892.0" cy="105" r="38" fill="none" stroke="#00f0ff" stroke-opacity=".3" stroke-dasharray="3 6" style="animation:rot 10s linear infinite;transform-origin:892.0px 105px"/>
+<text x="892.0" y="172" text-anchor="middle" font-family="'Orbitron','Rajdhani','Segoe UI','Arial Black',Arial,sans-serif" font-weight="800" font-size="15" letter-spacing="1.5" fill="#fff">WEB + MOBILE</text>
+<text x="892.0" y="194" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="12" fill="#00f0ff">end-to-end</text>
+<text x="892.0" y="211" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="12" fill="#9a9ac8">database to UI</text>
+<text x="966.0" y="62" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="10" fill="#00f0ff" opacity=".7">05</text>
+</g>
+</svg>

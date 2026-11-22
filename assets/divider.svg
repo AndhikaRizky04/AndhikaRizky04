@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 24" width="1000" height="24">
+<defs><linearGradient id="dl" x1="0" x2="1"><stop offset="0" stop-color="#00f0ff" stop-opacity="0"/><stop offset=".5" stop-color="#00f0ff"/><stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/></linearGradient>
+<filter id="ng" x="-10%" y="-200%" width="120%" height="500%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect y="11" width="1000" height="2" fill="url(#dl)"/>
+<g filter="url(#ng)">
+<rect y="9" width="70" height="6" rx="3" fill="#00f0ff"><animate attributeName="x" values="-80;1000" dur="2.6s" repeatCount="indefinite"/></rect>
+<rect y="10" width="40" height="4" rx="2" fill="#ff2bd6"><animate attributeName="x" values="1000;-50" dur="3.4s" repeatCount="indefinite"/></rect>
+<circle cy="12" r="3" fill="#f9f002"><animate attributeName="cx" values="-10;1010" dur="1.7s" repeatCount="indefinite"/></circle></g>
+<g fill="#00f0ff"><rect x="470" y="5" width="3" height="14" opacity=".5"><animate attributeName="opacity" values=".1;1;.1" dur="1.5s" begin="0.0s" repeatCount="indefinite"/></rect><rect x="480" y="5" width="3" height="14" opacity=".5"><animate attributeName="opacity" values=".1;1;.1" dur="1.5s" begin="0.2s" repeatCount="indefinite"/></rect><rect x="490" y="5" width="3" height="14" opacity=".5"><animate attributeName="opacity" values=".1;1;.1" dur="1.5s" begin="0.4s" repeatCount="indefinite"/></rect><rect x="500" y="5" width="3" height="14" opacity=".5"><animate attributeName="opacity" values=".1;1;.1" dur="1.5s" begin="0.6s" repeatCount="indefinite"/></rect><rect x="510" y="5" width="3" height="14" opacity=".5"><animate attributeName="opacity" values=".1;1;.1" dur="1.5s" begin="0.8s" repeatCount="indefinite"/></rect><rect x="520" y="5" width="3" height="14" opacity=".5"><animate attributeName="opacity" values=".1;1;.1" dur="1.5s" begin="1.0s" repeatCount="indefinite"/></rect><rect x="530" y="5" width="3" height="14" opacity=".5"><animate attributeName="opacity" values=".1;1;.1" dur="1.5s" begin="1.2s" repeatCount="indefinite"/></rect></g>
+</svg>
