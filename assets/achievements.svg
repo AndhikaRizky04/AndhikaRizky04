@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250">
+<defs><filter id="ng" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="hx"><polygon points="0.0,-50.0 43.3,-25.0 43.3,25.0 0.0,50.0 -43.3,25.0 -43.3,-25.0"/></clipPath></defs>
+<style>
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes rot{to{transform:rotate(360deg)}}
+@keyframes coin{0%,70%,100%{transform:scaleX(1)}78%{transform:scaleX(-1)}86%{transform:scaleX(1)}}
+@keyframes shine{0%{transform:translateX(0) skewX(-20deg)}40%,100%{transform:translateX(170px) skewX(-20deg)}}
+@keyframes pl{0%,100%{opacity:.2}50%{opacity:1}}
+</style>
+<rect width="1000" height="250" rx="14" fill="#07051a"/>
+<text x="20" y="26" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#00f0ff" opacity=".7">// UNLOCKED: 6/6</text>
+<text x="980" y="26" text-anchor="end" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#ff2bd6" opacity=".7">RANK: NETRUNNER</text>
+<g transform="translate(83.3 112)">
+<g style="animation:bob 3.6s 0.0s ease-in-out infinite">
+<circle r="62" fill="none" stroke="#00f0ff" stroke-opacity=".35" stroke-dasharray="3 7" style="animation:rot 12s linear infinite"/>
+<g style="animation:coin 7s 0.0s ease-in-out infinite">
+<polygon points="0.0,-52.0 45.0,-26.0 45.0,26.0 0.0,52.0 -45.0,26.0 -45.0,-26.0" fill="#0b0820" stroke="#00f0ff" stroke-width="3" filter="url(#ng)"/>
+<polygon points="0.0,-42.0 36.4,-21.0 36.4,21.0 0.0,42.0 -36.4,21.0 -36.4,-21.0" fill="#00f0ff" fill-opacity=".08" stroke="#00f0ff" stroke-opacity=".5"/>
+<g clip-path="url(#hx)"><rect x="-80" y="-60" width="22" height="120" fill="#fff" opacity=".18" transform="skewX(-20)" style="animation:shine 3s 0.0s linear infinite"/></g>
+<text y="-4" text-anchor="middle" font-family="'Orbitron','Segoe UI','Arial Black',Arial,sans-serif" font-weight="900" font-size="19" fill="#fff">B.Sc.</text>
+<text y="16" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" font-weight="700" fill="#00f0ff">GRADUATE</text>
+</g>
+<text y="88" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#9a9ac8" letter-spacing="2">UDINUS</text>
+<g fill="#00f0ff"><polygon points="-14,74 -10,70 -6,74 -10,78" style="animation:pl 1.5s 0.0s infinite"/><polygon points="0,74 4,70 8,74 4,78" style="animation:pl 1.5s 0.2s infinite"/><polygon points="14,74 18,70 22,74 18,78" style="animation:pl 1.5s 0.4s infinite"/></g>
+</g></g><g transform="translate(250.0 112)">
+<g style="animation:bob 3.6s -0.6s ease-in-out infinite">
+<circle r="62" fill="none" stroke="#ff2bd6" stroke-opacity=".35" stroke-dasharray="3 7" style="animation:rot 12s linear infinite"/>
+<g style="animation:coin 7s -0.9s ease-in-out infinite">
+<polygon points="0.0,-52.0 45.0,-26.0 45.0,26.0 0.0,52.0 -45.0,26.0 -45.0,-26.0" fill="#0b0820" stroke="#ff2bd6" stroke-width="3" filter="url(#ng)"/>
+<polygon points="0.0,-42.0 36.4,-21.0 36.4,21.0 0.0,42.0 -36.4,21.0 -36.4,-21.0" fill="#ff2bd6" fill-opacity=".08" stroke="#ff2bd6" stroke-opacity=".5"/>
+<g clip-path="url(#hx)"><rect x="-80" y="-60" width="22" height="120" fill="#fff" opacity=".18" transform="skewX(-20)" style="animation:shine 3s -0.6s linear infinite"/></g>
+<text y="-4" text-anchor="middle" font-family="'Orbitron','Segoe UI','Arial Black',Arial,sans-serif" font-weight="900" font-size="19" fill="#fff">FULL</text>
+<text y="16" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" font-weight="700" fill="#ff2bd6">STACK</text>
+</g>
+<text y="88" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#9a9ac8" letter-spacing="2">DEV</text>
+<g fill="#ff2bd6"><polygon points="-14,74 -10,70 -6,74 -10,78" style="animation:pl 1.5s 0.1s infinite"/><polygon points="0,74 4,70 8,74 4,78" style="animation:pl 1.5s 0.3s infinite"/><polygon points="14,74 18,70 22,74 18,78" style="animation:pl 1.5s 0.5s infinite"/></g>
+</g></g><g transform="translate(416.7 112)">
+<g style="animation:bob 3.6s -1.2s ease-in-out infinite">
+<circle r="62" fill="none" stroke="#00f0ff" stroke-opacity=".35" stroke-dasharray="3 7" style="animation:rot 12s linear infinite"/>
+<g style="animation:coin 7s -1.8s ease-in-out infinite">
+<polygon points="0.0,-52.0 45.0,-26.0 45.0,26.0 0.0,52.0 -45.0,26.0 -45.0,-26.0" fill="#0b0820" stroke="#00f0ff" stroke-width="3" filter="url(#ng)"/>
+<polygon points="0.0,-42.0 36.4,-21.0 36.4,21.0 0.0,42.0 -36.4,21.0 -36.4,-21.0" fill="#00f0ff" fill-opacity=".08" stroke="#00f0ff" stroke-opacity=".5"/>
+<g clip-path="url(#hx)"><rect x="-80" y="-60" width="22" height="120" fill="#fff" opacity=".18" transform="skewX(-20)" style="animation:shine 3s -1.2s linear infinite"/></g>
+<text y="-4" text-anchor="middle" font-family="'Orbitron','Segoe UI','Arial Black',Arial,sans-serif" font-weight="900" font-size="19" fill="#fff">REACT</text>
+<text y="16" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" font-weight="700" fill="#00f0ff">FRONTEND</text>
+</g>
+<text y="88" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#9a9ac8" letter-spacing="2">OPS</text>
+<g fill="#00f0ff"><polygon points="-14,74 -10,70 -6,74 -10,78" style="animation:pl 1.5s 0.2s infinite"/><polygon points="0,74 4,70 8,74 4,78" style="animation:pl 1.5s 0.4s infinite"/><polygon points="14,74 18,70 22,74 18,78" style="animation:pl 1.5s 0.6s infinite"/></g>
+</g></g><g transform="translate(583.3 112)">
+<g style="animation:bob 3.6s -1.8s ease-in-out infinite">
+<circle r="62" fill="none" stroke="#ff2bd6" stroke-opacity=".35" stroke-dasharray="3 7" style="animation:rot 12s linear infinite"/>
+<g style="animation:coin 7s -2.7s ease-in-out infinite">
+<polygon points="0.0,-52.0 45.0,-26.0 45.0,26.0 0.0,52.0 -45.0,26.0 -45.0,-26.0" fill="#0b0820" stroke="#ff2bd6" stroke-width="3" filter="url(#ng)"/>
+<polygon points="0.0,-42.0 36.4,-21.0 36.4,21.0 0.0,42.0 -36.4,21.0 -36.4,-21.0" fill="#ff2bd6" fill-opacity=".08" stroke="#ff2bd6" stroke-opacity=".5"/>
+<g clip-path="url(#hx)"><rect x="-80" y="-60" width="22" height="120" fill="#fff" opacity=".18" transform="skewX(-20)" style="animation:shine 3s -1.8s linear infinite"/></g>
+<text y="-4" text-anchor="middle" font-family="'Orbitron','Segoe UI','Arial Black',Arial,sans-serif" font-weight="900" font-size="13" fill="#fff">LARAVEL</text>
+<text y="16" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" font-weight="700" fill="#ff2bd6">BACKEND</text>
+</g>
+<text y="88" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#9a9ac8" letter-spacing="2">OPS</text>
+<g fill="#ff2bd6"><polygon points="-14,74 -10,70 -6,74 -10,78" style="animation:pl 1.5s 0.3s infinite"/><polygon points="0,74 4,70 8,74 4,78" style="animation:pl 1.5s 0.5s infinite"/><polygon points="14,74 18,70 22,74 18,78" style="animation:pl 1.5s 0.7s infinite"/></g>
+</g></g><g transform="translate(750.0 112)">
+<g style="animation:bob 3.6s -2.4s ease-in-out infinite">
+<circle r="62" fill="none" stroke="#f9f002" stroke-opacity=".35" stroke-dasharray="3 7" style="animation:rot 12s linear infinite"/>
+<g style="animation:coin 7s -3.6s ease-in-out infinite">
+<polygon points="0.0,-52.0 45.0,-26.0 45.0,26.0 0.0,52.0 -45.0,26.0 -45.0,-26.0" fill="#0b0820" stroke="#f9f002" stroke-width="3" filter="url(#ng)"/>
+<polygon points="0.0,-42.0 36.4,-21.0 36.4,21.0 0.0,42.0 -36.4,21.0 -36.4,-21.0" fill="#f9f002" fill-opacity=".08" stroke="#f9f002" stroke-opacity=".5"/>
+<g clip-path="url(#hx)"><rect x="-80" y="-60" width="22" height="120" fill="#fff" opacity=".18" transform="skewX(-20)" style="animation:shine 3s -2.4s linear infinite"/></g>
+<text y="-4" text-anchor="middle" font-family="'Orbitron','Segoe UI','Arial Black',Arial,sans-serif" font-weight="900" font-size="19" fill="#fff">AI</text>
+<text y="16" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" font-weight="700" fill="#f9f002">INTEGRATOR</text>
+</g>
+<text y="88" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#9a9ac8" letter-spacing="2">WEB APPS</text>
+<g fill="#f9f002"><polygon points="-14,74 -10,70 -6,74 -10,78" style="animation:pl 1.5s 0.4s infinite"/><polygon points="0,74 4,70 8,74 4,78" style="animation:pl 1.5s 0.6s infinite"/><polygon points="14,74 18,70 22,74 18,78" style="animation:pl 1.5s 0.8s infinite"/></g>
+</g></g><g transform="translate(916.7 112)">
+<g style="animation:bob 3.6s -3.0s ease-in-out infinite">
+<circle r="62" fill="none" stroke="#39ff14" stroke-opacity=".35" stroke-dasharray="3 7" style="animation:rot 12s linear infinite"/>
+<g style="animation:coin 7s -4.5s ease-in-out infinite">
+<polygon points="0.0,-52.0 45.0,-26.0 45.0,26.0 0.0,52.0 -45.0,26.0 -45.0,-26.0" fill="#0b0820" stroke="#39ff14" stroke-width="3" filter="url(#ng)"/>
+<polygon points="0.0,-42.0 36.4,-21.0 36.4,21.0 0.0,42.0 -36.4,21.0 -36.4,-21.0" fill="#39ff14" fill-opacity=".08" stroke="#39ff14" stroke-opacity=".5"/>
+<g clip-path="url(#hx)"><rect x="-80" y="-60" width="22" height="120" fill="#fff" opacity=".18" transform="skewX(-20)" style="animation:shine 3s -3.0s linear infinite"/></g>
+<text y="-4" text-anchor="middle" font-family="'Orbitron','Segoe UI','Arial Black',Arial,sans-serif" font-weight="900" font-size="19" fill="#fff">OPEN</text>
+<text y="16" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" font-weight="700" fill="#39ff14">TO COLLAB</text>
+</g>
+<text y="88" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#9a9ac8" letter-spacing="2">FREELANCE</text>
+<g fill="#39ff14"><polygon points="-14,74 -10,70 -6,74 -10,78" style="animation:pl 1.5s 0.5s infinite"/><polygon points="0,74 4,70 8,74 4,78" style="animation:pl 1.5s 0.7s infinite"/><polygon points="14,74 18,70 22,74 18,78" style="animation:pl 1.5s 0.9s infinite"/></g>
+</g></g>
+</svg>
