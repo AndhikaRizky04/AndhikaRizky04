@@ -79,7 +79,7 @@
 <!-- ======================= TROPHIES ======================= -->
 <img src="assets/titles/trophy.svg" width="90%" alt="Achievements" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=AndhikaRizky04&theme=radical&no-frame=true&no-bg=true&margin-w=10&row=1&column=7" />
+<img src="assets/achievements.svg" width="100%" alt="Achievements" />
 
 <img src="assets/divider.svg" width="100%" />
 
